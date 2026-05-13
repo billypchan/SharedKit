@@ -1,25 +1,35 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Buy Me a Coffee" : {
-
-    },
-    "One-time purchase" : {
+    "Ads Removed — Thank You!" : {
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次性購買"
+            "value" : "已移除廣告，感謝支持！"
           }
         }
       }
     },
-    "Remove Ads" : {
+    "Buy Me a Coffee" : {
+
+    },
+    "Close" : {
       "localizations" : {
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "移除廣告"
+            "value" : "關閉"
+          }
+        }
+      }
+    },
+    "Enjoy %@\nAd-Free" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "享受無廣告的%@"
           }
         }
       }
@@ -40,6 +50,46 @@
         }
       }
     },
+    "Helps keep the app updated and free for everyone." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幫助維持應用程式的更新與免費使用。"
+          }
+        }
+      }
+    },
+    "No More Ads" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "告別廣告"
+          }
+        }
+      }
+    },
+    "One-time purchase" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性購買"
+          }
+        }
+      }
+    },
+    "One-time purchase. No subscription." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性購買，無訂閱。"
+          }
+        }
+      }
+    },
     "Rate this App" : {
       "localizations" : {
         "de" : {
@@ -56,6 +106,36 @@
         }
       }
     },
+    "Re-install on any device — your purchase stays with your Apple ID." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新安裝後可恢復購買，購買記錄綁定 Apple ID。"
+          }
+        }
+      }
+    },
+    "Remove Ads" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除廣告"
+          }
+        }
+      }
+    },
+    "Remove Ads — %@" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除廣告 — %@"
+          }
+        }
+      }
+    },
     "Report an Issue" : {
       "localizations" : {
         "de" : {
@@ -68,6 +148,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "回報問題"
+          }
+        }
+      }
+    },
+    "Restore Any Time" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隨時恢復"
+          }
+        }
+      }
+    },
+    "Restore Purchase" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復購買"
+          }
+        }
+      }
+    },
+    "Removes all banner ads from the app." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從應用程式中移除所有橫幅廣告。"
           }
         }
       }
@@ -100,6 +210,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支援"
+          }
+        }
+      }
+    },
+    "Support Development" : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持開發"
+          }
+        }
+      }
+    },
+    "Support the developer and remove all banner ads with a single one-time purchase." : {
+      "localizations" : {
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透過一次性購買支持開發者，移除所有橫幅廣告。"
           }
         }
       }

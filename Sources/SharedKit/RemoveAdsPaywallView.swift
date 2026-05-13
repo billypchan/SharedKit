@@ -25,11 +25,13 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
         .padding(.horizontal, 24)
         .padding(.bottom, 32)
       }
-      .navigationTitle("Remove Ads")
+      .navigationTitle(Text("Remove Ads", bundle: .module))
       .navigationBarTitleDisplayMode(.inline)
       .toolbar {
         ToolbarItem(placement: .topBarTrailing) {
-          Button("Close") { dismiss() }
+          Button { dismiss() } label: {
+            Text("Close", bundle: .module)
+          }
         }
       }
     }
@@ -49,11 +51,14 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
       }
       .padding(.top, 24)
 
-      Text("Enjoy \(appName)\nAd-Free")
-        .font(.title2.bold())
-        .multilineTextAlignment(.center)
+      Text(verbatim: String(
+        format: NSLocalizedString("Enjoy %@\nAd-Free", bundle: .module, comment: "Paywall hero title"),
+        appName
+      ))
+      .font(.title2.bold())
+      .multilineTextAlignment(.center)
 
-      Text("Support the developer and remove all banner ads with a single one-time purchase.")
+      Text("Support the developer and remove all banner ads with a single one-time purchase.", bundle: .module)
         .font(.body)
         .foregroundStyle(.secondary)
         .multilineTextAlignment(.center)
@@ -72,9 +77,9 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
             .frame(width: 32)
 
           VStack(alignment: .leading, spacing: 2) {
-            Text(benefit.title)
+            Text(LocalizedStringKey(benefit.title), bundle: .module)
               .font(.subheadline.weight(.semibold))
-            Text(benefit.description)
+            Text(LocalizedStringKey(benefit.description), bundle: .module)
               .font(.caption)
               .foregroundStyle(.secondary)
           }
@@ -95,7 +100,7 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
   private let benefits: [Benefit] = [
     Benefit(icon: "xmark.circle.fill", color: .red,
             title: "No More Ads",
-            description: "Banner ads removed from the station list and map view."),
+            description: "Removes all banner ads from the app."),
     Benefit(icon: "heart.fill", color: .pink,
             title: "Support Development",
             description: "Helps keep the app updated and free for everyone."),
@@ -109,12 +114,16 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
   private var purchaseSection: some View {
     VStack(spacing: 12) {
       if purchaseManager.isPremium {
-        Label("Ads Removed — Thank You!", systemImage: "checkmark.circle.fill")
-          .font(.headline)
-          .foregroundStyle(.green)
-          .frame(maxWidth: .infinity)
-          .padding()
-          .background(Color.green.opacity(0.1), in: RoundedRectangle(cornerRadius: 14))
+        Label {
+          Text("Ads Removed — Thank You!", bundle: .module)
+        } icon: {
+          Image(systemName: "checkmark.circle.fill")
+        }
+        .font(.headline)
+        .foregroundStyle(.green)
+        .frame(maxWidth: .infinity)
+        .padding()
+        .background(Color.green.opacity(0.1), in: RoundedRectangle(cornerRadius: 14))
       } else {
         Button {
           Task { @MainActor in await purchaseManager.purchase() }
@@ -123,7 +132,7 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
             if purchaseManager.isPurchasing {
               ProgressView().tint(.white)
             } else {
-              Text(purchaseButtonTitle)
+              Text(verbatim: purchaseButtonTitle)
                 .font(.headline)
             }
           }
@@ -138,7 +147,7 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
         Button {
           Task { @MainActor in await purchaseManager.restore() }
         } label: {
-          Text("Restore Purchase")
+          Text("Restore Purchase", bundle: .module)
             .font(.subheadline)
             .foregroundStyle(.secondary)
         }
@@ -152,7 +161,7 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
           .multilineTextAlignment(.center)
       }
 
-      Text("One-time purchase. No subscription.")
+      Text("One-time purchase. No subscription.", bundle: .module)
         .font(.caption2)
         .foregroundStyle(.tertiary)
     }
@@ -160,9 +169,10 @@ public struct RemoveAdsPaywallView<PM: RemoveAdsPurchasing>: View {
 
   private var purchaseButtonTitle: String {
     if let price = purchaseManager.removeAdsProductDisplayPrice {
-      return "Remove Ads — \(price)"
+      let fmt = NSLocalizedString("Remove Ads — %@", bundle: .module, comment: "Purchase button with price")
+      return String(format: fmt, price)
     }
-    return "Remove Ads"
+    return NSLocalizedString("Remove Ads", bundle: .module, comment: "Purchase button without price")
   }
 }
 
