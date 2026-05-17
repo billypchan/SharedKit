@@ -6,7 +6,9 @@ public struct SupportSectionConfig {
   public let twitterURL: URL
   public let buyMeACoffeeURL: URL?
   public let isPremium: Bool
+  public let isSupporter: Bool
   public let onRemoveAds: (@MainActor () -> Void)?
+  public let onSupportDeveloper: (@MainActor () -> Void)?
   public let onRateApp: @MainActor () -> Void
 
   public init(
@@ -15,7 +17,9 @@ public struct SupportSectionConfig {
     twitterURL: URL = URL(string: "https://x.com/billchanios")!,
     buyMeACoffeeURL: URL? = nil,
     isPremium: Bool = true,
+    isSupporter: Bool = false,
     onRemoveAds: (@MainActor () -> Void)? = nil,
+    onSupportDeveloper: (@MainActor () -> Void)? = nil,
     onRateApp: @escaping @MainActor () -> Void
   ) {
     self.appStoreURL = appStoreURL
@@ -23,7 +27,9 @@ public struct SupportSectionConfig {
     self.twitterURL = twitterURL
     self.buyMeACoffeeURL = buyMeACoffeeURL
     self.isPremium = isPremium
+    self.isSupporter = isSupporter
     self.onRemoveAds = onRemoveAds
+    self.onSupportDeveloper = onSupportDeveloper
     self.onRateApp = onRateApp
   }
 }
@@ -37,7 +43,38 @@ public struct SupportSectionView: View {
   }
 
   public var body: some View {
-    Section(header: Text("Support", bundle: .module)) {
+    Section {
+      sectionContent
+    } header: {
+      HStack {
+        Text("Support", bundle: .module)
+        if config.isSupporter {
+          Spacer()
+          SupporterBadge()
+            .textCase(nil)
+        }
+      }
+    }
+  }
+
+  @ViewBuilder
+  private var sectionContent: some View {
+      if let onSupportDeveloper = config.onSupportDeveloper {
+        Button {
+          onSupportDeveloper()
+        } label: {
+          HStack {
+            Image(systemName: "heart.fill")
+              .foregroundStyle(.pink)
+            Text(config.isSupporter ? "Manage Support" : "Support the Developer", bundle: .module)
+              .foregroundStyle(.primary)
+            Spacer()
+            Image(systemName: "chevron.right")
+              .font(.caption)
+              .foregroundStyle(.secondary)
+          }
+        }
+      }
       Link(destination: config.githubURL) {
         ExternalLinkRow(icon: "ladybug.fill", iconColor: .red, label: "Report an Issue")
       }
@@ -67,7 +104,7 @@ public struct SupportSectionView: View {
         }
       }
       .foregroundStyle(.primary)
-      if !config.isPremium, let onRemoveAds = config.onRemoveAds {
+    if !config.isPremium, let onRemoveAds = config.onRemoveAds {
         Button {
           onRemoveAds()
         } label: {
@@ -86,7 +123,6 @@ public struct SupportSectionView: View {
           }
         }
       }
-    }
   }
 }
 #endif

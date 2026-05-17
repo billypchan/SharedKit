@@ -233,6 +233,246 @@
           }
         }
       }
+    },
+    "Support the Developer" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwickler unterstützen"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持開發者"
+          }
+        }
+      }
+    },
+    "Support %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ unterstützen"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持 %@"
+          }
+        }
+      }
+    },
+    "Independent, ad-free, and built with care. If the app saves you time, a small tip keeps it going." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unabhängig, werbefrei und mit Sorgfalt gebaut. Wenn dir die App Zeit spart, hilft ein kleiner Beitrag, dass es weitergeht."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獨立開發，無廣告，用心打造。如果這個 App 為你省下時間，一份小小心意能讓它持續下去。"
+          }
+        }
+      }
+    },
+    "Manage Support" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unterstützung verwalten"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理支持"
+          }
+        }
+      }
+    },
+    "Supporter" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unterstützer"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持者"
+          }
+        }
+      }
+    },
+    "You're a Supporter — thank you!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du bist Unterstützer — danke!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是支持者 — 謝謝！"
+          }
+        }
+      }
+    },
+    "One-Time Tip" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einmaliger Beitrag"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性贊助"
+          }
+        }
+      }
+    },
+    "A single thank-you." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein einmaliges Dankeschön."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次心意。"
+          }
+        }
+      }
+    },
+    "Monthly Support" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monatliche Unterstützung"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月支持"
+          }
+        }
+      }
+    },
+    "Renews each month. Cancel anytime." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlängert sich monatlich. Jederzeit kündbar."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月自動續訂，隨時可取消。"
+          }
+        }
+      }
+    },
+    "Yearly Support" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jährliche Unterstützung"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每年支持"
+          }
+        }
+      }
+    },
+    "Best value. Renews each year. Cancel anytime." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestes Angebot. Verlängert sich jährlich. Jederzeit kündbar."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最划算。每年自動續訂，隨時可取消。"
+          }
+        }
+      }
+    },
+    "Restore Purchases" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käufe wiederherstellen"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復購買"
+          }
+        }
+      }
+    },
+    "Subscriptions auto-renew until cancelled in App Store settings." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abos verlängern sich automatisch, bis sie in den App-Store-Einstellungen gekündigt werden."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "訂閱會自動續訂，可於 App Store 設定中取消。"
+          }
+        }
+      }
+    },
+    "No content is locked behind these purchases — they're a thank you." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Käufe schalten nichts frei — sie sind ein Dankeschön."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這些購買不會解鎖任何功能 — 純粹是心意。"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
