@@ -8,6 +8,12 @@
             "state" : "translated",
             "value" : "已移除廣告，感謝支持！"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã Gỡ Quảng Cáo — Cảm Ơn Bạn!"
+          }
         }
       }
     },
@@ -21,6 +27,12 @@
             "state" : "translated",
             "value" : "關閉"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
+          }
         }
       }
     },
@@ -30,6 +42,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "享受無廣告的%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tận hưởng %@\nKhông Quảng Cáo"
           }
         }
       }
@@ -47,6 +65,12 @@
             "state" : "translated",
             "value" : "在 X 上追蹤"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theo dõi trên X"
+          }
         }
       }
     },
@@ -56,6 +80,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "幫助維持應用程式的更新與免費使用。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giúp duy trì cập nhật và miễn phí ứng dụng cho mọi người."
           }
         }
       }
@@ -67,6 +97,12 @@
             "state" : "translated",
             "value" : "告別廣告"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không Còn Quảng Cáo"
+          }
         }
       }
     },
@@ -77,6 +113,12 @@
             "state" : "translated",
             "value" : "一次性購買"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mua một lần"
+          }
         }
       }
     },
@@ -86,6 +128,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一次性購買，無訂閱。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mua một lần. Không cần đăng ký."
           }
         }
       }
@@ -103,6 +151,12 @@
             "state" : "translated",
             "value" : "為 App 評分"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đánh Giá Ứng Dụng"
+          }
         }
       }
     },
@@ -112,6 +166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重新安裝後可恢復購買，購買記錄綁定 Apple ID。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt lại trên bất kỳ thiết bị nào — giao dịch mua được lưu theo Apple ID của bạn."
           }
         }
       }
@@ -123,6 +183,12 @@
             "state" : "translated",
             "value" : "移除廣告"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ Quảng Cáo"
+          }
         }
       }
     },
@@ -132,6 +198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "移除廣告 — %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ Quảng Cáo — %@"
           }
         }
       }
@@ -149,6 +221,12 @@
             "state" : "translated",
             "value" : "回報問題"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Báo Cáo Sự Cố"
+          }
         }
       }
     },
@@ -158,6 +236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "隨時恢復"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi Phục Bất Cứ Lúc Nào"
           }
         }
       }
@@ -169,6 +253,12 @@
             "state" : "translated",
             "value" : "恢復購買"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi Phục Giao Dịch Mua"
+          }
         }
       }
     },
@@ -178,6 +268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "從應用程式中移除所有橫幅廣告。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ bỏ toàn bộ quảng cáo biểu ngữ khỏi ứng dụng."
           }
         }
       }
@@ -195,6 +291,12 @@
             "state" : "translated",
             "value" : "分享這個 App"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia Sẻ Ứng Dụng Này"
+          }
         }
       }
     },
@@ -211,6 +313,12 @@
             "state" : "translated",
             "value" : "支援"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ Trợ"
+          }
         }
       }
     },
@@ -221,6 +329,12 @@
             "state" : "translated",
             "value" : "支持開發"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng Hộ Phát Triển"
+          }
         }
       }
     },
@@ -230,6 +344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "透過一次性購買支持開發者，移除所有橫幅廣告。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng hộ nhà phát triển và gỡ bỏ toàn bộ quảng cáo biểu ngữ chỉ với một lần mua duy nhất."
           }
         }
       }
@@ -247,6 +367,12 @@
             "state" : "translated",
             "value" : "支持開發者"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng Hộ Nhà Phát Triển"
+          }
         }
       }
     },
@@ -262,6 +388,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支持 %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng hộ %@"
           }
         }
       }
@@ -279,6 +411,12 @@
             "state" : "translated",
             "value" : "獨立開發，無廣告，用心打造。如果這個 App 為你省下時間，一份小小心意能讓它持續下去。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phát triển độc lập, không quảng cáo, được chăm chút kỹ lưỡng. Nếu ứng dụng giúp bạn tiết kiệm thời gian, một khoản ủng hộ nhỏ sẽ giúp nó tiếp tục phát triển."
+          }
         }
       }
     },
@@ -294,6 +432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "管理支持"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản Lý Ủng Hộ"
           }
         }
       }
@@ -311,6 +455,12 @@
             "state" : "translated",
             "value" : "支持者"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người Ủng Hộ"
+          }
         }
       }
     },
@@ -326,6 +476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你是支持者 — 謝謝！"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là Người Ủng Hộ — cảm ơn bạn!"
           }
         }
       }
@@ -343,6 +499,12 @@
             "state" : "translated",
             "value" : "一次性贊助"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng Hộ Một Lần"
+          }
         }
       }
     },
@@ -358,6 +520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一次心意。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một lời cảm ơn duy nhất."
           }
         }
       }
@@ -375,6 +543,12 @@
             "state" : "translated",
             "value" : "每月支持"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng Hộ Hàng Tháng"
+          }
         }
       }
     },
@@ -390,6 +564,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每月自動續訂，隨時可取消。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự động gia hạn mỗi tháng. Hủy bất cứ lúc nào."
           }
         }
       }
@@ -407,6 +587,12 @@
             "state" : "translated",
             "value" : "每年支持"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ủng Hộ Hàng Năm"
+          }
         }
       }
     },
@@ -422,6 +608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最划算。每年自動續訂，隨時可取消。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiết kiệm nhất. Tự động gia hạn mỗi năm. Hủy bất cứ lúc nào."
           }
         }
       }
@@ -439,6 +631,12 @@
             "state" : "translated",
             "value" : "恢復購買"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi Phục Giao Dịch Mua"
+          }
         }
       }
     },
@@ -455,6 +653,12 @@
             "state" : "translated",
             "value" : "訂閱會自動續訂，可於 App Store 設定中取消。"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gói đăng ký tự động gia hạn cho đến khi bạn hủy trong cài đặt App Store."
+          }
         }
       }
     },
@@ -470,6 +674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "這些購買不會解鎖任何功能 — 純粹是心意。"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các giao dịch mua này không mở khóa nội dung nào — chỉ đơn thuần là lời cảm ơn."
           }
         }
       }
