@@ -3,16 +3,34 @@
   "strings" : {
     "Ads Removed — Thank You!" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已移除廣告，感謝支持！"
+            "value" : "広告を削除しました、ありがとうございます！"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "광고를 제거했습니다. 감사합니다!"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã Gỡ Quảng Cáo — Cảm Ơn Bạn!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除广告，感谢支持！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除廣告，感謝支持！"
           }
         }
       }
@@ -22,10 +40,16 @@
     },
     "Close" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "關閉"
+            "value" : "閉じる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
           }
         },
         "vi" : {
@@ -33,21 +57,51 @@
             "state" : "translated",
             "value" : "Đóng"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
+          }
         }
       }
     },
     "Enjoy %@\nAd-Free" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "享受無廣告的%@"
+            "value" : "広告なしで\n%@ を楽しむ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "광고 없이\n%@ 즐기기"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tận hưởng %@\nKhông Quảng Cáo"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "享受无广告的%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "享受無廣告的%@"
           }
         }
       }
@@ -60,10 +114,16 @@
             "value" : "Auf X folgen"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "在 X 上追蹤"
+            "value" : "X でフォロー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "X에서 팔로우"
           }
         },
         "vi" : {
@@ -71,15 +131,33 @@
             "state" : "translated",
             "value" : "Theo dõi trên X"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 X 上关注"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 X 上追蹤"
+          }
         }
       }
     },
     "Helps keep the app updated and free for everyone." : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "幫助維持應用程式的更新與免費使用。"
+            "value" : "アプリの更新を続け、みなさんに無料で提供する支えになります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱을 계속 업데이트하고 모두에게 무료로 제공하는 데 도움이 됩니다."
           }
         },
         "vi" : {
@@ -87,15 +165,33 @@
             "state" : "translated",
             "value" : "Giúp duy trì cập nhật và miễn phí ứng dụng cho mọi người."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帮助维持这个 App 的更新与免费使用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幫助維持應用程式的更新與免費使用。"
+          }
         }
       }
     },
     "No More Ads" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "告別廣告"
+            "value" : "広告はもう出ません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "광고 없이"
           }
         },
         "vi" : {
@@ -103,15 +199,33 @@
             "state" : "translated",
             "value" : "Không Còn Quảng Cáo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "告别广告"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "告別廣告"
+          }
         }
       }
     },
     "One-time purchase" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次性購買"
+            "value" : "買い切り"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1회 구매"
           }
         },
         "vi" : {
@@ -119,21 +233,51 @@
             "state" : "translated",
             "value" : "Mua một lần"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性购买"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性購買"
+          }
         }
       }
     },
     "One-time purchase. No subscription." : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次性購買，無訂閱。"
+            "value" : "買い切りです。サブスクリプションはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1회 구매입니다. 구독이 아닙니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mua một lần. Không cần đăng ký."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性购买，无订阅。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性購買，無訂閱。"
           }
         }
       }
@@ -146,10 +290,16 @@
             "value" : "App bewerten"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "為 App 評分"
+            "value" : "この App を評価"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 앱 평가하기"
           }
         },
         "vi" : {
@@ -157,15 +307,33 @@
             "state" : "translated",
             "value" : "Đánh Giá Ứng Dụng"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "为 App 评分"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為 App 評分"
+          }
         }
       }
     },
     "Re-install on any device — your purchase stays with your Apple ID." : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "重新安裝後可恢復購買，購買記錄綁定 Apple ID。"
+            "value" : "別の端末に入れ直しても復元できます。購入は Apple ID に紐づきます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다른 기기에 다시 설치해도 복원할 수 있습니다. 구매 내역은 Apple ID에 남습니다."
           }
         },
         "vi" : {
@@ -173,15 +341,33 @@
             "state" : "translated",
             "value" : "Cài đặt lại trên bất kỳ thiết bị nào — giao dịch mua được lưu theo Apple ID của bạn."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新安装后可恢复购买，购买记录绑定 Apple ID。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新安裝後可恢復購買，購買記錄綁定 Apple ID。"
+          }
         }
       }
     },
     "Remove Ads" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "移除廣告"
+            "value" : "広告を削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "광고 제거"
           }
         },
         "vi" : {
@@ -189,21 +375,51 @@
             "state" : "translated",
             "value" : "Gỡ Quảng Cáo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除广告"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除廣告"
+          }
         }
       }
     },
     "Remove Ads — %@" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "移除廣告 — %@"
+            "value" : "広告を削除 — %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "광고 제거 — %@"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gỡ Quảng Cáo — %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除广告 — %@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除廣告 — %@"
           }
         }
       }
@@ -216,10 +432,16 @@
             "value" : "Problem melden"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "回報問題"
+            "value" : "問題を報告"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문제 신고"
           }
         },
         "vi" : {
@@ -227,15 +449,33 @@
             "state" : "translated",
             "value" : "Báo Cáo Sự Cố"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回报问题"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回報問題"
+          }
         }
       }
     },
     "Restore Any Time" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隨時恢復"
+            "value" : "いつでも復元できます"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "언제든 복원"
           }
         },
         "vi" : {
@@ -243,15 +483,33 @@
             "state" : "translated",
             "value" : "Khôi Phục Bất Cứ Lúc Nào"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "随时恢复"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隨時恢復"
+          }
         }
       }
     },
     "Restore Purchase" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "恢復購買"
+            "value" : "購入を復元"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구매 복원"
           }
         },
         "vi" : {
@@ -259,21 +517,51 @@
             "state" : "translated",
             "value" : "Khôi Phục Giao Dịch Mua"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复购买"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復購買"
+          }
         }
       }
     },
     "Removes all banner ads from the app." : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "從應用程式中移除所有橫幅廣告。"
+            "value" : "アプリ内のバナー広告をすべて非表示にします。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱의 모든 배너 광고를 제거합니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gỡ bỏ toàn bộ quảng cáo biểu ngữ khỏi ứng dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从 App 中移除所有横幅广告。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從應用程式中移除所有橫幅廣告。"
           }
         }
       }
@@ -286,16 +574,34 @@
             "value" : "App teilen"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "分享這個 App"
+            "value" : "この App を共有"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 앱 공유하기"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chia Sẻ Ứng Dụng Này"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享这个 App"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享這個 App"
           }
         }
       }
@@ -308,10 +614,16 @@
             "value" : "Unterstützung"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "支援"
+            "value" : "サポート"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원"
           }
         },
         "vi" : {
@@ -319,15 +631,33 @@
             "state" : "translated",
             "value" : "Hỗ Trợ"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援"
+          }
         }
       }
     },
     "Support Development" : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "支持開發"
+            "value" : "開発を支援"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개발 지원"
           }
         },
         "vi" : {
@@ -335,21 +665,51 @@
             "state" : "translated",
             "value" : "Ủng Hộ Phát Triển"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持开发"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持開發"
+          }
         }
       }
     },
     "Support the developer and remove all banner ads with a single one-time purchase." : {
       "localizations" : {
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "透過一次性購買支持開發者，移除所有橫幅廣告。"
+            "value" : "一度の買い切りで開発者を支援し、バナー広告をすべて非表示にします。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "한 번의 구매로 개발자를 후원하고 모든 배너 광고를 제거합니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ủng hộ nhà phát triển và gỡ bỏ toàn bộ quảng cáo biểu ngữ chỉ với một lần mua duy nhất."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过一次性购买支持开发者，移除所有横幅广告。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透過一次性購買支持開發者，移除所有橫幅廣告。"
           }
         }
       }
@@ -362,16 +722,34 @@
             "value" : "Entwickler unterstützen"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "支持開發者"
+            "value" : "開発者を支援"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개발자 후원하기"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ủng Hộ Nhà Phát Triển"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持开发者"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持開發者"
           }
         }
       }
@@ -384,16 +762,34 @@
             "value" : "%@ unterstützen"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "支持 %@"
+            "value" : "%@ を支援"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 후원하기"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ủng hộ %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持 %@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持 %@"
           }
         }
       }
@@ -406,16 +802,34 @@
             "value" : "Unabhängig, werbefrei und mit Sorgfalt gebaut. Wenn dir die App Zeit spart, hilft ein kleiner Beitrag, dass es weitergeht."
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "獨立開發，無廣告，用心打造。如果這個 App 為你省下時間，一份小小心意能讓它持續下去。"
+            "value" : "個人開発、広告なし、ていねいに作っています。この App が時間の節約になったなら、少しの気持ちが続ける力になります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1인 개발, 광고 없이 정성껏 만들었습니다. 이 앱이 시간을 아껴 주었다면 작은 후원이 계속할 힘이 됩니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phát triển độc lập, không quảng cáo, được chăm chút kỹ lưỡng. Nếu ứng dụng giúp bạn tiết kiệm thời gian, một khoản ủng hộ nhỏ sẽ giúp nó tiếp tục phát triển."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "独立开发，无广告，用心打造。如果这个 App 为你省下时间，一份小小心意能让它持续下去。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獨立開發，無廣告，用心打造。如果這個 App 為你省下時間，一份小小心意能讓它持續下去。"
           }
         }
       }
@@ -428,16 +842,34 @@
             "value" : "Unterstützung verwalten"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "管理支持"
+            "value" : "支援を管理"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후원 관리"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quản Lý Ủng Hộ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理支持"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理支持"
           }
         }
       }
@@ -450,16 +882,34 @@
             "value" : "Unterstützer"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "支持者"
+            "value" : "サポーター"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후원자"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người Ủng Hộ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持者"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持者"
           }
         }
       }
@@ -472,16 +922,34 @@
             "value" : "Du bist Unterstützer — danke!"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你是支持者 — 謝謝！"
+            "value" : "サポーターです — ありがとうございます！"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "후원자입니다 — 감사합니다!"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn là Người Ủng Hộ — cảm ơn bạn!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是支持者 — 谢谢！"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是支持者 — 謝謝！"
           }
         }
       }
@@ -494,16 +962,34 @@
             "value" : "Einmaliger Beitrag"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次性贊助"
+            "value" : "一回だけの支援"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일회성 후원"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ủng Hộ Một Lần"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性赞助"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性贊助"
           }
         }
       }
@@ -516,16 +1002,34 @@
             "value" : "Ein einmaliges Dankeschön."
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "一次心意。"
+            "value" : "一度の気持ちです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "한 번의 감사 인사입니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Một lời cảm ơn duy nhất."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次心意。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次心意。"
           }
         }
       }
@@ -538,16 +1042,34 @@
             "value" : "Monatliche Unterstützung"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "每月支持"
+            "value" : "毎月の支援"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매월 후원"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ủng Hộ Hàng Tháng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月支持"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月支持"
           }
         }
       }
@@ -560,16 +1082,34 @@
             "value" : "Verlängert sich monatlich. Jederzeit kündbar."
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "每月自動續訂，隨時可取消。"
+            "value" : "毎月更新されます。いつでも解約できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매월 갱신됩니다. 언제든 취소할 수 있습니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tự động gia hạn mỗi tháng. Hủy bất cứ lúc nào."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月自动续订，随时可取消。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每月自動續訂，隨時可取消。"
           }
         }
       }
@@ -582,16 +1122,34 @@
             "value" : "Jährliche Unterstützung"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "每年支持"
+            "value" : "毎年の支援"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매년 후원"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ủng Hộ Hàng Năm"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每年支持"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每年支持"
           }
         }
       }
@@ -604,16 +1162,34 @@
             "value" : "Bestes Angebot. Verlängert sich jährlich. Jederzeit kündbar."
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "最划算。每年自動續訂，隨時可取消。"
+            "value" : "一番おトクです。毎年更新されます。いつでも解約できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가장 알뜰합니다. 매년 갱신되며 언제든 취소할 수 있습니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiết kiệm nhất. Tự động gia hạn mỗi năm. Hủy bất cứ lúc nào."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最划算。每年自动续订，随时可取消。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最划算。每年自動續訂，隨時可取消。"
           }
         }
       }
@@ -626,16 +1202,34 @@
             "value" : "Käufe wiederherstellen"
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "恢復購買"
+            "value" : "購入を復元"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구매 복원"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khôi Phục Giao Dịch Mua"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复购买"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢復購買"
           }
         }
       }
@@ -648,16 +1242,34 @@
             "value" : "Abos verlängern sich automatisch, bis sie in den App-Store-Einstellungen gekündigt werden."
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "訂閱會自動續訂，可於 App Store 設定中取消。"
+            "value" : "サブスクリプションは App Store の設定で解約するまで自動更新されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구독은 App Store 설정에서 취소할 때까지 자동으로 갱신됩니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gói đăng ký tự động gia hạn cho đến khi bạn hủy trong cài đặt App Store."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "订阅会自动续订，可于 App Store 设置中取消。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "訂閱會自動續訂，可於 App Store 設定中取消。"
           }
         }
       }
@@ -670,16 +1282,34 @@
             "value" : "Diese Käufe schalten nichts frei — sie sind ein Dankeschön."
           }
         },
-        "zh-Hant" : {
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "這些購買不會解鎖任何功能 — 純粹是心意。"
+            "value" : "これらの購入で解放される機能はありません — 純粋に気持ちだけのものです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 구매로 잠금이 해제되는 기능은 없습니다 — 순수하게 감사의 표시입니다."
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Các giao dịch mua này không mở khóa nội dung nào — chỉ đơn thuần là lời cảm ơn."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些购买不会解锁任何功能 — 纯粹是心意。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這些購買不會解鎖任何功能 — 純粹是心意。"
           }
         }
       }
